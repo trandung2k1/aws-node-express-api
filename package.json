@@ -1,0 +1,21 @@
+{
+    "name": "aws-node-express-api",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.20.2",
+        "express": "^4.19.2",
+        "serverless-http": "^3.2.0",
+        "swagger-autogen": "^2.23.7",
+        "swagger-ui-express": "^5.0.1",
+        "uuid": "^10.0.0"
+    },
+    "devDependencies": {},
+    "description": ""
+}
