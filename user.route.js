@@ -3,7 +3,11 @@ const { v4: uuidv4 } = require('uuid');
 const router = Router();
 
 router.get('/users', function (req, res) {
-    return res.status(200).json([]);
+    const users = [
+        { id: 1, name: 'DungTran' },
+        { id: 2, name: 'Mai' },
+    ];
+    return res.status(200).json(users);
 });
 
 router.post('/users', function (req, res) {
